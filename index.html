@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЛОГИ СИГИЗМУНДА | AI-Оркестратор</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="header-badge">SYSTEM LOG</div>
+      <h1 class="header-title">ЛОГИ СИГИЗМУНДА</h1>
+      <div class="header-subtitle">AI-ОРКЕСТРАТОР</div>
+    </div>
+  </header>
+
+  <section class="filters-panel">
+    <div class="container">
+
+      <div class="filter-group">
+        <div class="filter-label">INDUSTRY LAYER</div>
+        <div class="filter-buttons" data-axis="industry">
+          <button class="filter-btn" data-value="energy">ENERGY</button>
+          <button class="filter-btn" data-value="chips">CHIPS</button>
+          <button class="filter-btn" data-value="infrastructure">INFRASTRUCTURE</button>
+          <button class="filter-btn" data-value="models">MODELS</button>
+          <button class="filter-btn" data-value="applications">APPLICATIONS</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-label">SPECIALIST LEVEL</div>
+        <div class="filter-buttons" data-axis="specialist">
+          <button class="filter-btn" data-value="0">0 ЗРИТЕЛЬ</button>
+          <button class="filter-btn" data-value="1">1 ПОЛЬЗОВАТЕЛЬ</button>
+          <button class="filter-btn" data-value="2">2 ОПЕРАТОР</button>
+          <button class="filter-btn" data-value="3">3 ДЕЛЕГАТОР</button>
+          <button class="filter-btn" data-value="4">4 АРХИТЕКТОР</button>
+          <button class="filter-btn" data-value="5">5 ОРКЕСТРАТОР</button>
+          <button class="filter-btn" data-value="6">6 ИНФРАСТРУКТУРА</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <div class="filter-label">COMPANY LEVEL</div>
+        <div class="filter-buttons" data-axis="company">
+          <button class="filter-btn" data-value="0">0 ДИНОЗАВР</button>
+          <button class="filter-btn" data-value="1">1 ВИТРИНА</button>
+          <button class="filter-btn" data-value="2">2 ЛОСКУТЫ</button>
+          <button class="filter-btn" data-value="3">3 ОРКЕСТРАЦИЯ</button>
+          <button class="filter-btn" data-value="4">4 АГЕНТЫ</button>
+          <button class="filter-btn" data-value="5">5 ИНФРА-ВЛАСТЬ</button>
+        </div>
+      </div>
+
+      <div class="filter-controls">
+        <button class="reset-btn" id="resetFilters">RESET FILTERS</button>
+        <div class="post-counter" id="postCounter">LOADING...</div>
+      </div>
+
+    </div>
+  </section>
+
+  <main class="posts-feed">
+    <div class="container" id="postsContainer">
+      <!-- Posts rendered by JS -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-line"></div>
+      <div class="footer-text">SYSTEM STATUS: OPERATIONAL</div>
+    </div>
+  </footer>
+
+  <script src="posts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

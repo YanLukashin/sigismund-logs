@@ -1,0 +1,333 @@
+/* === RESET & BASE === */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #F4F2EA;
+  --bg-card: #FFFFFF;
+  --text-primary: #0A0A0A;
+  --text-secondary: #6E685F;
+  --text-muted: #8D877C;
+  --accent: #D9A321;
+  --accent-hover: #C4911B;
+  --signal: #F04B23;
+  --border: #D6D1C7;
+  --border-light: #E8E4DA;
+  --tag-bg: #EDEADE;
+  --tag-active-bg: #D9A321;
+  --tag-active-text: #FFFFFF;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* === HEADER === */
+.site-header {
+  padding: 48px 0 32px;
+  border-bottom: 3px solid var(--text-primary);
+}
+
+.header-badge {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--signal);
+  border: 1.5px solid var(--signal);
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+.header-title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 6vw, 48px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  color: var(--text-primary);
+}
+
+.header-subtitle {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
+/* === FILTERS === */
+.filters-panel {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 100;
+}
+
+.filter-group {
+  margin-bottom: 12px;
+}
+
+.filter-label {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-btn {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.filter-btn:hover {
+  border-color: var(--text-secondary);
+  color: var(--text-primary);
+}
+
+.filter-btn.active {
+  background: var(--tag-active-bg);
+  border-color: var(--tag-active-bg);
+  color: var(--tag-active-text);
+}
+
+.filter-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-light);
+}
+
+.reset-btn {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 6px 16px;
+  border: 1.5px solid var(--text-primary);
+  background: transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.reset-btn:hover {
+  background: var(--text-primary);
+  color: var(--bg);
+}
+
+.post-counter {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+}
+
+/* === POSTS === */
+.posts-feed {
+  padding: 32px 0 64px;
+}
+
+.post-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.post-card.hidden {
+  display: none;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-date {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: var(--text-muted);
+}
+
+.post-id {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: var(--border);
+}
+
+.post-content {
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-primary);
+  word-wrap: break-word;
+}
+
+.post-content strong {
+  font-weight: 600;
+}
+
+.post-content code {
+  font-family: 'Menlo', 'Monaco', monospace;
+  font-size: 12px;
+  background: var(--tag-bg);
+  padding: 2px 6px;
+  border: 1px solid var(--border-light);
+}
+
+.post-content pre {
+  background: var(--tag-bg);
+  border: 1px solid var(--border-light);
+  padding: 12px;
+  margin: 8px 0;
+  overflow-x: auto;
+  font-family: 'Menlo', 'Monaco', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.post-content a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.post-content a:hover {
+  color: var(--accent-hover);
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border-light);
+}
+
+.post-tag {
+  font-family: var(--font-display);
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 3px 8px;
+}
+
+.post-tag.tag-industry {
+  background: #EDE8D6;
+  color: #8B7D5E;
+  border: 1px solid #D6CDB5;
+}
+
+.post-tag.tag-specialist {
+  background: #E2EBE6;
+  color: #4A6B5A;
+  border: 1px solid #C5D6CC;
+}
+
+.post-tag.tag-company {
+  background: #E8E2ED;
+  color: #6B5A7A;
+  border: 1px solid #D1C5D9;
+}
+
+/* === FOOTER === */
+.site-footer {
+  padding: 0 0 48px;
+}
+
+.footer-line {
+  height: 2px;
+  background: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  font-family: var(--font-display);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 640px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .site-header {
+    padding: 32px 0 24px;
+  }
+
+  .filters-panel {
+    padding: 16px 0;
+  }
+
+  .filter-btn {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .post-card {
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+
+  .post-content {
+    font-size: 13px;
+  }
+}
