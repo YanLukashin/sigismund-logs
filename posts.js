@@ -12,6 +12,11 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-knowledge",
+      "autopilot"
     ]
   },
   {
@@ -27,6 +32,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       5
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -43,6 +52,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-teams"
     ]
   },
   {
@@ -58,6 +71,9 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "private-ai"
     ]
   },
   {
@@ -73,6 +89,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "private-ai",
+      "ai-teams"
     ]
   },
   {
@@ -88,6 +108,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "private-ai",
+      "ai-knowledge"
     ]
   },
   {
@@ -106,6 +130,9 @@ window.POSTS_DATA = [
       1,
       2,
       3
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -124,6 +151,10 @@ window.POSTS_DATA = [
       1,
       2,
       3
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -141,6 +172,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -159,6 +194,11 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-teams",
+      "ai-knowledge"
     ]
   },
   {
@@ -176,6 +216,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams",
+      "ai-knowledge"
     ]
   },
   {
@@ -193,6 +237,10 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "private-ai",
+      "ai-knowledge"
     ]
   },
   {
@@ -210,6 +258,9 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -228,6 +279,9 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -245,6 +299,12 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai",
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -261,6 +321,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -278,6 +341,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -296,6 +362,12 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-teams",
+      "ai-knowledge",
+      "autopilot"
     ]
   },
   {
@@ -313,6 +385,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "private-ai"
     ]
   },
   {
@@ -332,6 +407,9 @@ window.POSTS_DATA = [
       3,
       4,
       5
+    ],
+    "scenarios": [
+      "private-ai"
     ]
   },
   {
@@ -348,6 +426,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -364,6 +445,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -380,6 +464,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -397,6 +484,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -415,6 +505,10 @@ window.POSTS_DATA = [
     "company_levels": [
       1,
       2
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -433,6 +527,10 @@ window.POSTS_DATA = [
       1,
       2,
       3
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -450,6 +548,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -467,6 +568,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -484,6 +589,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -501,6 +610,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -517,6 +629,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -534,6 +649,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -550,6 +669,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -566,6 +688,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware"
     ]
   },
   {
@@ -582,6 +707,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -598,6 +727,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -615,6 +748,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "private-ai",
+      "ai-knowledge"
     ]
   },
   {
@@ -632,6 +769,9 @@ window.POSTS_DATA = [
       3,
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -648,6 +788,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -666,6 +809,10 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -683,6 +830,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "private-ai",
+      "autopilot"
     ]
   },
   {
@@ -699,6 +850,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -715,6 +869,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -732,6 +889,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -749,6 +909,11 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -766,6 +931,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -782,6 +950,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -800,6 +971,10 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -818,6 +993,10 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai"
     ]
   },
   {
@@ -836,6 +1015,9 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -854,6 +1036,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -871,6 +1056,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -888,6 +1076,11 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai",
+      "ai-teams"
     ]
   },
   {
@@ -905,6 +1098,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -923,6 +1120,10 @@ window.POSTS_DATA = [
       2,
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -941,6 +1142,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -958,6 +1162,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -974,6 +1181,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -992,6 +1202,12 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai",
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -1008,6 +1224,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -1025,6 +1244,10 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -1042,6 +1265,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-knowledge"
     ]
   },
   {
@@ -1059,6 +1285,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware"
     ]
   },
   {
@@ -1075,6 +1304,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -1092,6 +1324,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "private-ai"
     ]
   },
   {
@@ -1108,6 +1343,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "hardware"
     ]
   },
   {
@@ -1126,6 +1364,10 @@ window.POSTS_DATA = [
       3,
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -1142,6 +1384,10 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "private-ai",
+      "autopilot"
     ]
   },
   {
@@ -1160,6 +1406,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -1178,6 +1427,12 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai",
+      "ai-teams",
+      "ai-knowledge"
     ]
   },
   {
@@ -1194,6 +1449,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -1211,6 +1469,9 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -1228,6 +1489,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "autopilot"
     ]
   },
   {
@@ -1244,6 +1508,9 @@ window.POSTS_DATA = [
     "company_levels": [
       2,
       3
+    ],
+    "scenarios": [
+      "private-ai"
     ]
   },
   {
@@ -1260,6 +1527,9 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware"
     ]
   },
   {
@@ -1277,6 +1547,11 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "ai-teams",
+      "ai-knowledge",
+      "autopilot"
     ]
   },
   {
@@ -1295,6 +1570,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-teams"
     ]
   },
   {
@@ -1312,6 +1591,10 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -1328,6 +1611,10 @@ window.POSTS_DATA = [
     "company_levels": [
       3,
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -1345,6 +1632,12 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "hardware",
+      "private-ai",
+      "ai-teams",
+      "autopilot"
     ]
   },
   {
@@ -1360,6 +1653,9 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       4
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   },
   {
@@ -1374,6 +1670,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       4
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -1390,6 +1690,10 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "hardware",
+      "autopilot"
     ]
   },
   {
@@ -1407,6 +1711,11 @@ window.POSTS_DATA = [
     "company_levels": [
       4,
       5
+    ],
+    "scenarios": [
+      "hardware",
+      "ai-knowledge",
+      "autopilot"
     ]
   },
   {
@@ -1422,6 +1731,11 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "private-ai",
+      "ai-knowledge",
+      "autopilot"
     ]
   }
 ];
