@@ -10,7 +10,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4
     ]
   },
@@ -25,7 +28,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4
     ],
     "scenarios": [
@@ -45,7 +51,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       5
     ],
     "scenarios": [
@@ -65,7 +74,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
@@ -84,7 +96,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
@@ -102,7 +117,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
@@ -121,7 +139,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
@@ -141,7 +162,10 @@ window.POSTS_DATA = [
       2,
       3
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       1,
       2,
       3
@@ -162,7 +186,10 @@ window.POSTS_DATA = [
       2,
       3
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       1,
       2,
       3
@@ -184,7 +211,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -206,7 +236,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -228,7 +261,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -249,7 +285,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -269,7 +308,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -290,7 +332,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -311,7 +356,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -333,7 +381,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -353,7 +404,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -373,7 +427,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -397,7 +454,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -418,7 +478,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4,
       5
@@ -438,7 +501,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -457,7 +523,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -476,7 +545,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -496,7 +568,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -517,7 +592,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       1,
       2
     ],
@@ -538,7 +616,10 @@ window.POSTS_DATA = [
       2,
       3
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       1,
       2,
       3
@@ -560,7 +641,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -580,7 +664,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -601,7 +688,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -622,7 +712,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -641,7 +734,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -661,7 +757,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -681,7 +780,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -700,7 +802,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -719,7 +824,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -739,7 +847,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -760,7 +871,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -780,7 +894,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4,
       5
@@ -800,7 +917,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -820,7 +940,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -842,7 +965,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -862,7 +988,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -881,7 +1010,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -901,7 +1033,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -921,7 +1056,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -943,7 +1081,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -962,7 +1103,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -982,7 +1126,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -1005,7 +1152,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1026,7 +1176,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -1048,7 +1201,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1068,7 +1224,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1088,7 +1247,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1110,7 +1272,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1131,7 +1296,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3,
       4
@@ -1154,7 +1322,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1174,7 +1345,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1193,7 +1367,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1214,7 +1391,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -1236,7 +1416,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1256,7 +1439,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1277,7 +1463,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1297,7 +1486,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1316,7 +1508,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1336,7 +1531,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1355,7 +1553,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -1375,7 +1576,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4,
       5
@@ -1396,7 +1600,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -1418,7 +1625,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1439,7 +1649,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1461,7 +1674,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1481,7 +1697,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1501,7 +1720,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -1520,7 +1742,10 @@ window.POSTS_DATA = [
       2,
       3
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       2,
       3
     ],
@@ -1539,7 +1764,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1559,7 +1787,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1582,7 +1813,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1603,7 +1837,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1623,7 +1860,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3,
       4
     ],
@@ -1644,7 +1884,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1666,7 +1909,10 @@ window.POSTS_DATA = [
       4,
       5
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4
     ],
     "scenarios": [
@@ -1683,7 +1929,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4
     ],
     "scenarios": [
@@ -1703,7 +1952,10 @@ window.POSTS_DATA = [
       3,
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
@@ -1723,7 +1975,10 @@ window.POSTS_DATA = [
       5,
       6
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       4,
       5
     ],
@@ -1744,7 +1999,10 @@ window.POSTS_DATA = [
     "specialist_levels": [
       4
     ],
-    "company_levels": [
+    "scenarios": [
+    "ai-knowledge"
+  ],
+  "company_levels": [
       3
     ],
     "scenarios": [
