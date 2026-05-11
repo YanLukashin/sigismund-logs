@@ -2930,6 +2930,9 @@ window.POSTS_DATA = [
     ],
     "company_levels": [
       3
+    ],
+    "scenarios": [
+      "ai-teams"
     ]
   }
 ];
