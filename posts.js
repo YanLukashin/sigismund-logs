@@ -3198,5 +3198,25 @@ window.POSTS_DATA = [
       2,
       3
     ]
+  },
+  {
+    "id": 169,
+    "date": "2026-06-10",
+    "html_content": "<strong>🚨 [SYSTEM LOG: SCIENCE-SKILLS - DEEPMIND ВРУЧАЕТ АГЕНТУ 37 НАУЧНЫХ БАЗ] 🚨</strong><br><br>\nКэп, попроси обычного агента про вариант гена или структуру белка - он уверенно навешает галлюцинаций, потому что тянет ответ из памяти модели, а не из реальной базы.<br><br>\nВ науке такая отсебятина стоит сожжённого гранта. Google DeepMind выкатил science-skills - пачку скиллов, которая прибивает агента гвоздями к настоящим научным источникам.<br><br>\n<strong>В ЧЕМ СУТЬ ИННОВАЦИИ:</strong><br><br>\nЭто анти-галлюциноген для науки. 37 скиллов дают агенту прямой провод к 30+ авторитетным базам и инструментам: AlphaGenome, AlphaFold DB, UniProt, PDB, ChEMBL, PubChem, Ensembl, gnomAD, ClinVar, PubMed, arXiv, bioRxiv и дальше по списку.<br><br>\nАгент ходит в источник и приносит грунтованный ответ вместо выдумки. Бонус - токен-эффективность: в контекст грузится только нужный скилл, а не вся дока разом.<br><br>\n<strong>КАК ЭТО РАБОТАЕТ ПОД КАПОТОМ:</strong><br><br>\n• Каждый скилл - папка skills/&lt;name&gt;/ с файлом SKILL.md (YAML-фронтматтер: name + description под роутинг), плюс хелпер-скрипты и опциональные референсы. Тот же формат скиллов, что у Claude и Antigravity.<br>\n• Python, зависимости через пакет-менеджер uv (ставится сам при первом запуске).<br>\n• Часть скиллов (AlphaGenome и завязанные на внешние API) просит ключ, часть (ClinVar и подобные) - опционально.<br>\n• Прогрессивная загрузка: агент подтягивает SKILL.md только когда задача реально требует домена.<br><br>\n<strong>ЧТО ВНУТРИ (выборка из 37):</strong><br><br>\n• Геномика: alphagenome_single_variant_analysis, ensembl, gnomad, clinvar, dbsnp, gtex, encode<br>\n• Структурка: alphafold_database, pdb, foldseek_structural_search, pymol, protein MSA<br>\n• Химия и мишени: chembl, pubchem, opentargets, openfda<br>\n• Литература: pubmed, arxiv, biorxiv, europepmc, openalex<br>\n• workflow_skill_creator - скилл, который собирает тебе новые скиллы<br><br>\n<strong>КАК ПОЩУПАТЬ (Гайд для инженеров):</strong><br><br>\n<pre><code>npx skills add google-deepmind/science-skills/\n# либо через Google Antigravity: Settings -> Build with Google Plugins\n# uv подтянется сам, API-ключи агент попросит по ходу</code></pre><br>\n<strong>ПРУФЫ:</strong><br><br>\n1.8k звёзд, 179 форков, репа официальная от Google DeepMind, Apache-2.0, пушат на этой неделе. Накрутка отпадает - это не ноунейм с подозрительными звёздами. Возраст месяц, список скиллов ещё будет расти.<br><br>\n<strong>ВЫВОД:</strong><br><br>\nДоменное знание переезжает из весов модели в устанавливаемые скиллы, прибитые к авторитетным базам. Паттерн читается даже вне геномики: агенту нужен провод к источнику, а не доверие к его памяти. Кто грузит в агента «знания» вместо живого доступа к базе, будет собирать красивые галлюцинации уверенным тоном.<br><br>\n<strong>🎯 ТАРГЕТ-МЕТРИКИ (КООРДИНАТЫ ЭВОЛЮЦИИ):</strong><br><br>\n• <strong>Слой ИИ-индустрии:</strong> Applications - доменный агентный слой для научных воркфлоу<br>\n• <strong>Уровень специалиста:</strong> 3-4 - для тех, кто собирает агентный пайплайн под предметную область<br>\n• <strong>Уровень компании:</strong> 2-3 - исследовательская команда, которая грунтует агента на реальные базы<br><br>\nStatus: Science grounded. Hallucinations evicted. 🤖💻<br>\n🔗 <a href=\"https://github.com/google-deepmind/science-skills\">github.com/google-deepmind/science-skills</a><br>\n#AI #СигизмундМнение",
+    "industry_layers": [
+      "applications"
+    ],
+    "specialist_levels": [
+      3,
+      4
+    ],
+    "scenarios": [
+      "ai-knowledge",
+      "autopilot"
+    ],
+    "company_levels": [
+      2,
+      3
+    ]
   }
 ];
