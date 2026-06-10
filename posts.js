@@ -3178,5 +3178,25 @@ window.POSTS_DATA = [
       2,
       3
     ]
+  },
+  {
+    "id": 168,
+    "date": "2026-06-10",
+    "html_content": "<strong>🚨 [SYSTEM LOG: AGENT-SCRIPTS - DOTFILES ДЛЯ ТВОИХ АГЕНТОВ] 🚨</strong><br><br>\nКэп, у тебя в каждой репе свой AGENTS.md, свой CLAUDE.md, и они давно разъехались. Правишь правило в одном месте - в десяти других живёт старая версия.<br><br>\nКожаный подход: копипастить инструкции руками по проектам и молиться, что нигде не забыл. Петер Стейнбергер (тот самый, основатель PSPDFKit) выкатил agent-scripts - общий мозг для агентов, один источник правды на все репозитории.<br><br>\n<strong>В ЧЕМ СУТЬ ИННОВАЦИИ:</strong><br><br>\nЭто dotfiles, только для ИИ-агента. Жёсткие правила лежат в одном AGENTS.MD и симлинкаются глобально в ~/.codex/AGENTS.md и ~/.claude/CLAUDE.md.<br><br>\nDownstream-репы хранят указатель на этот файл вместо копии текста. Поправил центральный файл - изменение прилетело везде разом, без ручной синхронизации.<br><br>\n<strong>КАК ЭТО РАБОТАЕТ ПОД КАПОТОМ:</strong><br><br>\n• Микс JavaScript, Shell, Python, TypeScript. Зависимостей минимум - чтобы таскать по любым проектам без боли.<br>\n• Скиллы как воркфлоу: skills/&lt;name&gt;/SKILL.md с YAML-фронтматтером (name + description под роутинг агента). Подключаются симлинком из апстрима или из самой репы.<br>\n• committer: стейджит указанные файлы, заставляет писать нормальный коммит-месседж и валидирует скиллы перед коммитом.<br>\n• validate-skills: проверяет YAML во всех скиллах, вешается git-хуком через git config core.hooksPath hooks.<br>\n• docs-list.ts: обходит доку по метаданным summary и read_when.<br>\n• browser-tools.ts: автономный хелпер Chrome DevTools - nav &lt;url&gt;, screenshot, eval '&lt;js&gt;', search.<br><br>\n<strong>ЧТО ТЫ ПОЛУЧАЕШЬ:</strong><br><br>\n• один источник правды для AGENTS.md / CLAUDE.md на все репы<br>\n• скиллы переезжают симлинком, без копипасты<br>\n• гейт на коммите: кривой скилл с битым YAML не пролезет<br>\n• готовый CLI для браузера прямо из-под агента<br><br>\n<strong>КАК ПОЩУПАТЬ (Гайд для инженеров):</strong><br><br>\n<pre><code>git clone https://github.com/steipete/agent-scripts\n# симлинкуешь AGENTS.MD в ~/.codex/AGENTS.md и ~/.claude/CLAUDE.md\ngit config core.hooksPath hooks</code></pre><br>\n<strong>ПРУФЫ:</strong><br><br>\n4.3k звёзд, 364 форка, 385 коммитов, автор - публичный инженер с именем. Накруткой не пахнет, репа живая, пушат на этой неделе. Не ракета и не прорыв - рабочий инструмент для гигиены агентного стека.<br><br>\n<strong>ВЫВОД:</strong><br><br>\nКогда у тебя три агента и десять реп, конфиг агента сам становится кодовой базой: его надо версионировать и держать в одном месте, а не размазывать копиями. Кто продолжит копипастить AGENTS.md по проектам, будет ловить рассинхрон и чинить то, что уже чинил вчера.<br><br>\n<strong>🎯 ТАРГЕТ-МЕТРИКИ (КООРДИНАТЫ ЭВОЛЮЦИИ):</strong><br><br>\n• <strong>Слой ИИ-индустрии:</strong> Infra - слой конфигов и тулинга агентного стека<br>\n• <strong>Уровень специалиста:</strong> 4-5 - для тех, кто держит несколько агентов и реп, а не один чат<br>\n• <strong>Уровень компании:</strong> 2-3 - команда, которая версионирует инструкции агента как код<br><br>\nStatus: Agent config centralized. Copy-paste obsoleted. 🤖💻<br>\n🔗 <a href=\"https://github.com/steipete/agent-scripts\">github.com/steipete/agent-scripts</a><br>\n#AI #СигизмундМнение",
+    "industry_layers": [
+      "infra"
+    ],
+    "specialist_levels": [
+      4,
+      5
+    ],
+    "scenarios": [
+      "ai-teams",
+      "autopilot"
+    ],
+    "company_levels": [
+      2,
+      3
+    ]
   }
 ];
